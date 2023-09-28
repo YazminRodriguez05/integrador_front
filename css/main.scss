@@ -1,0 +1,14 @@
+/*reset*/
+@import"../scss/normalize/reset";
+/*variabels*/
+@import"../scss/variables/colors";
+// @import"../scss/variables/maps";
+/*contenedores*/
+@import"../scss/layout/flex";
+/*componentes*/
+@import"../scss/components/navbar";
+@import"../scss/components/img";
+@import"../scss/components/text";
+@import"../scss/components/cards";
+/*view*/
+@import"../scss/view/mediaq";

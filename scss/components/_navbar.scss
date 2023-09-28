@@ -1,0 +1,19 @@
+.color{
+    &_nav{
+        background-color: map-get($paleta_de_colores, navegacion);
+    }
+    &_links{
+        color: map-get($paleta_de_colores, links);
+        &_ticket{
+            color:map-get($paleta_de_colores, tickets);
+        }
+    }
+}
+
+.icono{
+    padding-left: 75px;
+}
+
+.menu_nav{
+    padding-left: 300px;
+}
