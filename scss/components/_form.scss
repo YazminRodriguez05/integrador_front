@@ -1,0 +1,12 @@
+.button{
+    border: none;
+    background-color: map-get($paleta_de_colores, buttom );
+    color: map-get($paleta_de_colores, links );
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    &:hover{
+        // background-color: rgba(49, 201, 49, 0.781);
+        opacity: 0.9;
+    }
+}

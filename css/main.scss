@@ -2,7 +2,6 @@
 @import"../scss/normalize/reset";
 /*variabels*/
 @import"../scss/variables/colors";
-// @import"../scss/variables/maps";
 /*contenedores*/
 @import"../scss/layout/flex";
 /*componentes*/
@@ -10,5 +9,7 @@
 @import"../scss/components/img";
 @import"../scss/components/text";
 @import"../scss/components/cards";
+@import"../scss/components/form";
+@import"../scss/components/footer";
 /*view*/
 @import"../scss/view/mediaq";

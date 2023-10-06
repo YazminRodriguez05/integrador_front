@@ -1,9 +1,10 @@
 .container_cards{
-    width: 1200px;
+    width: 1100px;
     padding: 40px 0 40px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
+    flex-wrap: wrap;
     
     .card{
         position: relative;
@@ -60,7 +61,7 @@
 
         .dorso{
             transform: perspective(1000px) rotateY(180deg);
-            background-color: #34383f;
+            background-color: map-get($paleta_de_colores, navegacion);
             padding: 15px;
             color: whitesmoke;
             flex-direction: column;

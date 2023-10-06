@@ -2,7 +2,7 @@
     height: 600px;
     width: 100%;
     position: relative;
-    background-image: url(../../assets/img/ba1.jpg);
+    background-image: url(../assets/img/ba1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,10 +18,15 @@
 }
 .img_inicio_2{
     @extend .img_inicio_1;
-    background-image: url(../../assets/img/ba2.jpg);
+    background-image: url(../assets/img/ba2.jpg);
 }
 
 .img_inicio_3{
     @extend .img_inicio_1;
-    background-image: url(../../assets/img/ba3.jpg);
+    background-image: url(../assets/img/ba3.jpg);
+}
+
+.img_honolulu{
+    width: 100%;
+    height: 100%;
 }

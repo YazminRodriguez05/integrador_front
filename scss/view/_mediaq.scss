@@ -1,10 +1,32 @@
-@media screen and (max-width: 800px){
-    .icono{
-        padding-left: 0px;
-    }
-    .menu_nav{
+@media screen and (max-width: 992px) {
+    .icono {
         padding-left: 0px;
     }
 
-    
+    .menu_nav {
+        padding-left: 0px;
+    }
+
+    /*Cards */
+    .container_cards {
+        width: 75%;
+        gap: 15px;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    footer{
+        ul{
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .container_cards{
+        width: 75%;
+        gap: 25px;
+    }
 }
