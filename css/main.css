@@ -38,7 +38,7 @@
   transition: 2ms;
 }
 
-z .icono {
+.icono {
   padding-left: 75px;
 }
 
@@ -197,6 +197,47 @@ z .icono {
   opacity: 0.9;
 }
 
+/*Cards tickets*/
+.container_desc {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.container_desc div {
+  padding: 10px;
+  border: solid 1px;
+  border-color: blue;
+  text-align: center;
+}
+.container_desc .desc_est {
+  border: solid 2px blue;
+}
+.container_desc .desc_trai {
+  border: solid 2px lightblue;
+}
+.container_desc .desc_jun {
+  border: solid 2px yellow;
+}
+
+.container {
+  padding: 0 10rem 0 10rem;
+}
+
+.total_pagar {
+  background-color: rgba(29, 189, 238, 0.3);
+}
+.total_pagar h3 {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: larger;
+}
+
+.style_resumen {
+  background-color: lightblue;
+}
+
 footer {
   background: #1d3c4e;
   padding: 1.5rem;
@@ -242,6 +283,9 @@ footer ul a:hover {
   footer ul {
     justify-content: center;
     flex-direction: column;
+  }
+  .container {
+    padding: 20px;
   }
 }
 @media screen and (max-width: 768px) {
